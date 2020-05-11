@@ -56,7 +56,7 @@
 		stringstyle=\color{stringGreen},
 		commentstyle=\color{gray},
 		keywordstyle=\color{purple},
-		language=C++,
+		language=java,
 		aboveskip=3mm,
 		belowskip=3mm,
 		showstringspaces=false,
@@ -110,7 +110,9 @@
 	 یا حتی یک تبلیغات تلویزیونی در مورد ماشین می‌تواند با ایجاد یک شبیه سازی منحصر   به فرد رانندگی آن ماشین در جاده در قالب یک تور برای هر بیننده ایجاد کند.
 	 هرچند که این سناریو می‌تواند برای شما جذاب باشد، محیط گرافیکی می‌تواند شامل گرافیک، اجرای برنامه‌های ساده و ایجاد ارتباط بین یک سایت و یک برنامه که به صورت داخلی اجرا می‌شود، باشد.
 	 
-	 در نقطه از توسعه Oak ،مهندسین و مدیران در شرکت سان میکرو سیستم متوجه یک نیاز فوری برای ایجاد یک زبان برنامه نویسی تحت مرورگر  شدند، 
+	 در نقطه از توسعه 
+	 \lr{Oak}
+	  ،مهندسین و مدیران در شرکت سان میکرو سیستم متوجه یک نیاز فوری برای ایجاد یک زبان برنامه نویسی تحت مرورگر  شدند، 
 	 یک زبان که می‌توانست برای نوشتن برنامه‌های کوچکی که تحت شبکه متنقل می‌شدند و بر روی هر مرورگر استاندارد در یک پلتفرم استاندارد اجرا می‌شدند استفاده شود.
 	و از طرفی نیاز برای استاندارد به دلیل خواسته ذاتی اشخاص و کمپانی‌ها برای داشتن بیشترین مخاطب ممکن بود. علاوه بر قابل حمل بودن، همچنین نیاز به امنیت هم وجود داشت بنابراین کسی که برنامه‌ی کوچکی را دانلود می‌کرد، قادر به اجرای آن بدون ترس از ویروس کامپیوتری یا خطرات دیگر بود.
 	
@@ -181,7 +183,7 @@
 	
 	قسمت‌های اصلی جاوا عبارت‌اند از:
 	
-	\begin{itemize}
+	\begin{itemize}[nosep]
 		\renewcommand{\labelitemi}{\color{gray}\scriptsize$\blacksquare$}
 		\item 
 		زبان برنامه‌نویسی جاوا.
@@ -255,7 +257,7 @@
 
 	\textbf{\textit{
 	مفسری بودن}}. شروع و بیشتر پیاده‌سازی جاوا بر پایه تفسیر بایت ‌کد
-	\LTRfootnote{\lr{byte code.}}
+	\LTRfootnote{\lr{byte code /baɪt kəʊd/.}}
  است. که در 
 	\hyperref[chap13]{
 		بخش ۱۳.۴}	بیشتر در این مورد بحث شده است. به طور خلاصه برنامه‌های جاوا ابتدا به یک زبان ساده و سطح پایین کامپایل می‌شوند. این زبان، بایت کد نام دارد،‌ به این دلیل که معمولاً زمانی مورد استفاده قرار می‌گیرد که برنامه‌های جاوا در بستر شبکه به عنوان قسمتی از صفحه وب ارسال می‌شوند. بایت‌کد‌های جاوا توسط یک مفسر به نام ماشین مجازی جاوا (JVM)
@@ -297,7 +299,9 @@
 	پیوند پویا}}. 
 	کلاس‌هایی که در جاوا تعریف و استفاده شده‌اند ممکن است به صورت مکرر در 
 	\lr{JVM}
-	بارگزاری شوند،‌ درست زمانی که آنها مورد نیاز برنامه اجرایی باشند. این کار زمان سپری شده بین شروع انتقال برنامه بر بستر شبکه و زمان شروع اجرای آن را کوتاه کند،‌ درحالی که برنامه درست قبل از اینکه تمام کد منتقل شود می‌تواند اجرا شود. علاوه براین درصورتی که برنامه‌ای بدون اینکه به کلای نیاز داشته باشد خاتمه یابد در اینصورت آن کلاس در JVM بارگزاری و حتی انتقال داده نمی‌شود. پیوند پویا تاثیر چندانی بر روی طراحی زبان ندارد، غیر از نیاز برای رابط‌های شفاف که بتوانند قسمت‌هایی از یک برنامه را تحت برخی فرضیات نسبت به قسمتی از کد فراهم شده در بخش دیگر برنامه چک کنند.
+	بارگزاری شوند،‌ درست زمانی که آنها مورد نیاز برنامه اجرایی باشند. این کار زمان سپری شده بین شروع انتقال برنامه بر بستر شبکه و زمان شروع اجرای آن را کوتاه کند،‌ درحالی که برنامه درست قبل از اینکه تمام کد منتقل شود می‌تواند اجرا شود. علاوه براین درصورتی که برنامه‌ای بدون اینکه به کلای نیاز داشته باشد خاتمه یابد در اینصورت آن کلاس در 
+	\lr{JVM}
+	 بارگزاری و حتی انتقال داده نمی‌شود. پیوند پویا تاثیر چندانی بر روی طراحی زبان ندارد، غیر از نیاز برای رابط‌های شفاف که بتوانند قسمت‌هایی از یک برنامه را تحت برخی فرضیات نسبت به قسمتی از کد فراهم شده در بخش دیگر برنامه چک کنند.
 	
 	
 	\textbf{\textit{
@@ -364,12 +368,12 @@
 	\begin{latin}
 		\small
 		\begin{lstlisting}[]
-class Point {
-	public int getX() { ...}
-	protected void setX (int x) { ...}
-	private int x;
-	Point(int xval) {x = xval;}
-};		
+			class Point {
+				public int getX() { ...}
+				protected void setX (int x) { ...}
+				private int x;
+				Point(int xval) {x = xval;}
+			};		
 		\end{lstlisting}
 	\end{latin}	
 			
@@ -377,7 +381,9 @@ class Point {
 	\lr{C++}
 	سازنده نامی برابر با نام  کلاس دارد. و همچنین مانند 
 	\lr{C++}
-	اجزاء در کلاس point ‌دسترسی‌های
+	اجزاء در کلاس 
+	\lr{point}
+	 ‌دسترسی‌های
 	\lr{public}، \lr{private} و \lr{protected}
 	 را دارند.
 	  همچنین
@@ -391,7 +397,7 @@ class Point {
 	متفاوت است، که در اینجا یک خلاصه کوتاه از مهم‌ترین واژه‌های استفاده شده در توصیف جاوا را بررسی می‌کنیم:
 	
 	
-	\begin{itemize}
+	\begin{itemize}[nosep]
 		\renewcommand{\labelitemi}{\color{gray}\scriptsize$\blacksquare$}
 		\item \textit{
 		کلاس} و \textit{شئ}، اساساً همانند دیگر زبان‌های برپایه کلاس و شئ‌گرا به یک معنی هستند.
@@ -407,7 +413,9 @@ class Point {
 		\textit{
 		عضو ایستا
 		\LTRfootnote{static member.}}
-		: مشابه به فیلد کلاس و یا متد کلاس در Smalltalk ،
+		: مشابه به فیلد کلاس و یا متد کلاس در 
+		\lr{Smalltalk}
+		 ،
 		\textit{
 		this \footnote{
 		اشاره‌گری به شئ جاری}}: مانند 
@@ -423,7 +431,11 @@ class Point {
 		پکیج‌}: یک مجموعه از کلاس‌ها که یک فضای نام را به اشتراک می‌گذارند.
 	\end{itemize}
 
-	ما خیلی از مشخصات کلاس‌ها در جاوا را شامل فیلد‌ها و متدهای ایستا،  سربار گذاری، متد‌های پایانی، متد main ، متد toString که برای چاپ یک نما از شئ یه و همچنین امکان استفاده از کد‌های بومی را مشاهده کردیم. ما در ادامه بحث‌هایی حول زمان اجرای جاوا از اشیاء و پیاده‌سازی متد lookup در 
+	ما خیلی از مشخصات کلاس‌ها در جاوا را شامل فیلد‌ها و متدهای ایستا،  سربار گذاری، متد‌های پایانی، متد main ، متد 
+	\lr{toString}
+	 که برای چاپ یک نما از شئ یه و همچنین امکان استفاده از کد‌های بومی را مشاهده کردیم. ما در ادامه بحث‌هایی حول زمان اجرای جاوا از اشیاء و پیاده‌سازی متد 
+	 \lr{lookup}
+	  در 
 	\hyperref[sec4:chap13]{
 	بخش ۱۳.۴} که در رابطه با ایجاد یک ارتبطا به جنبه‌های دیگر ساختار زمان اجرای سیستم است، خواهیم داشت.
 
@@ -434,7 +446,11 @@ class Point {
 	زیربخش ۱۳.۲.۳ } مفصل بحث شده است.
 	
 	\textit{\textbf{
-	متد‌ها و فیلد‌های ایستا}}. متد‌ها و فیلد‌های ایستا در جاوا مشابه به متد و فیل در Smalltalk است. اگر یک فیلد به صورت ایستا تعریف شود، درنتیجه آن فیل برای کل کلاس مشترک است و نه برای هر یک شئ و اگر متدی ایستا تعریف شود در نتیجه این متد بدون یک شئ از کلا می‌تواند فراخوانی شود. در حالت کلی، متد‌های ایستا می‌توانند حتی قبل ز اینکه  شئ از کلاس ایجاد شوند، فراخوانی شوند. در نتیجه متد‌های ایستا تنها قابلیت دسترسی به فیلد‌های ایسستا و بقیه متد‌های ایستا را دارند. آنها نمی‌توانند به شئ this ارجاع کنند زیرا هیچ قسمتی از شئ خاصی از کلاس نیستند. در خارج از یک کلاس عضو ایستا با اسم خود کلاس فراخوانی می‌شود که فراخوانی آن به صورت 
+	متد‌ها و فیلد‌های ایستا}}. متد‌ها و فیلد‌های ایستا در جاوا مشابه به متد و فیل در 
+	\lr{Smalltalk}
+ است. اگر یک فیلد به صورت ایستا تعریف شود، درنتیجه آن فیل برای کل کلاس مشترک است و نه برای هر یک شئ و اگر متدی ایستا تعریف شود در نتیجه این متد بدون یک شئ از کلا می‌تواند فراخوانی شود. در حالت کلی، متد‌های ایستا می‌توانند حتی قبل ز اینکه  شئ از کلاس ایجاد شوند، فراخوانی شوند. در نتیجه متد‌های ایستا تنها قابلیت دسترسی به فیلد‌های ایسستا و بقیه متد‌های ایستا را دارند. آنها نمی‌توانند به شئ 
+	\lr{this}	
+ ارجاع کنند زیرا هیچ قسمتی از شئ خاصی از کلاس نیستند. در خارج از یک کلاس عضو ایستا با اسم خود کلاس فراخوانی می‌شود که فراخوانی آن به صورت 
 	\lrInlineMono{class\_name.static\_method(args)}
 	است و نه از طریق یک شئ از کلاس.
 	
@@ -443,19 +459,21 @@ class Point {
 	\begin{latin}
 		\small
 		\begin{lstlisting}[]
-class ... {
-	/* --- static variable with initial value --- */
-	static int x = initial value;
-	/* --- static initialization block --- */
-	static { /* code to be executed once, when class is loaded */
-	}
-}
+			class ... {
+				/* --- static variable with initial value --- */
+				static int x = initial value;
+				/* --- static initialization block --- */
+				static { /* code to be executed once, when class is loaded */
+				}
+			}
 		\end{lstlisting}
 	\end{latin}	
 	
 	همانطور که از کامنت‌های برنامه مشخص است، بلوک مربوط به ایستا در کد فقط یک بار زمانی که کلاس بارگزاری می‌شود اجرا می‌شود. بارگذاری کلاس در 
 	\hyperref[sec4:chap13]{
-		بخش ۱۳.۴} در اتصال به JVM مفصل بحث شده است. قوانین مختلفی بر برتیب اجرای مقدار دهی‌های ایستا حاکم است. زمانی‌که یک کلاس شامل هر دو مقدار دهی، هم نوع عبارت و هم بلاک ایستا است. حتی محدودیت‌هایی هم بر مقدار دهی ایستا وجود دارد. برای     
+		بخش ۱۳.۴} در اتصال به 
+	\lr{JVM}
+ مفصل بحث شده است. قوانین مختلفی بر برتیب اجرای مقدار دهی‌های ایستا حاکم است. زمانی‌که یک کلاس شامل هر دو مقدار دهی، هم نوع عبارت و هم بلاک ایستا است. حتی محدودیت‌هایی هم بر مقدار دهی ایستا وجود دارد. برای     
 	
 	
 	مثال، یک مقدار‌دهی ایستا نمی‌تواند یک حالت استثنا ایجاد کند، به این دلیل که هیچ اطمینانی وجود ندارد که یک کنترل کننده متناظر در هنگام بارگذاری کلاس برای آن ایجاد شود.
@@ -477,13 +495,13 @@ class ... {
 \begin{latin}
 	\small
 	\begin{lstlisting}[]
-class ... {
-	...
-	protected void finalize () {
-		super.finalize();
-		close(file);
-	}
-};
+		class ... {
+			...
+			protected void finalize () {
+				super.finalize();
+				close(file);
+			}
+		};
 	\end{lstlisting}
 \end{latin}	
 
@@ -492,7 +510,7 @@ class ... {
 	و استثناء‌ها وجود دارد، بدین‌گونه که در صورت رخ‌دادن هر استثناء مدیریت نشده‌ای آن استثناء نادیده گرفته می‌شود.
 	
 	یک مشکل مرتبط با متد 
-	\lrInlineMono{finilize}as
+	\lrInlineMono{finilize}
 	کنترل نداشتن صریح برنامه‌نویس زمان فراخوانی متد 
 	\lrInlineMono{finilize}
 	است. 
@@ -507,7 +525,7 @@ class ... {
 	 \lrInlineMono{toString}
 	 که برای تولید یک نمایش چاپی از شئ به کار می‌رود، و امکان تعریف متد‌های بومی است:
 	 
-	\begin{itemize}
+	\begin{itemize}[nosep]
 		\renewcommand{\labelitemi}{\color{gray}\scriptsize$\blacksquare$}
 		\item 
 		\texttt{main}
@@ -549,7 +567,14 @@ class ... {
 	\lr{C++}
 	و چهارمین آن ناشی از وجود بسته‌ها است.
 	
-	%Figure 13.1 Java package and	class visibility.
+	\begin{figure}[!h]
+		\label{fig1:subsec2:sec2:chap13}
+		\centering
+		\def\svgwidth{\columnwidth}
+		\includegraphics[width=0.45\linewidth,bb=0 0 286 185]{image/Figure_13.1.pdf}
+		\caption{
+			بسته‌های جاوا و سطوح رؤیت کلاس. }
+	\end{figure}
 	
 	بسته‌های جاوا کپسوله سازی مشابه با فضای نام 
 	\LTRfootnote{\lr{namespaces.}}
@@ -557,7 +582,9 @@ class ... {
 	دارند که اجازه می‌دهند، اعلان‌های مرتبط با برخی اعلان‌های دیگر یک دسته شوند و از بسته‌های دیگر مخفی باشند. 
 در یک برنامه جاوا، هر فیلد و متد متعلق به یک کلاس خاص است و هر کلاس بخشی از یک بسته است، همانطور که در 
 	\hyperref[fig1:subsec2:sec2:chap13]{
-	شکل ۱۳.۱} آمده است، یک کلاس می‌تواند متعلق به یک بسته بی‌نام پیش فرض،‌ یا برخی از بسته‌های دیگر که در فایلی که شامل کلاس است مشخص شده‌اند، باشد.
+	شکل ۱۳.۱}
+	\linebreak
+ آمده است، یک کلاس می‌تواند متعلق به یک بسته بی‌نام پیش فرض،‌ یا برخی از بسته‌های دیگر که در فایلی که شامل کلاس است مشخص شده‌اند، باشد.
 
 	تمایزات رؤیت
 	\LTRfootnote{visibility.}
@@ -589,7 +616,6 @@ class ... {
 	\lrInlineMono{import}
 	قابل دسترس باشند، که اعلان‌های دیگر بسته‌ها را وارد می‌کند، یا اسامی واجد شرایط که در حالت زیر هستند، که  نشان می‌دهد، بسته صریحا شامل اسم است:  
 
-
 \begin{latin}
 	\color{steelBlue}
 	$\underbrace{\texttt{java.lang}}_{\text{package}}.
@@ -617,17 +643,17 @@ class ... {
 \begin{latin}
 	\small
 	\begin{lstlisting}[]
-class ColorPoint extends Point {
-	// Additional fields and methods
-	private Color c;
-	protected void setC (Color d) {c = d;}
-	public Color getC() {return c;}
-	// Define constructor
-	ColorPoint(int xval, Color cval) {
-		super(xval); // call Point constructor
-		c = cval; 
-	} // initialize ColorPoint field
-};
+			class ColorPoint extends Point {
+				// Additional fields and methods
+				private Color c;
+				protected void setC (Color d) {c = d;}
+				public Color getC() {return c;}
+				// Define constructor
+				ColorPoint(int xval, Color cval) {
+					super(xval); // call Point constructor
+					c = cval; 
+				} // initialize ColorPoint field
+			};
 		\end{lstlisting}
 \end{latin}	
 
@@ -663,64 +689,191 @@ class ColorPoint extends Point {
 	به کلاس 
 	\lrInlineMono{ColorPoint}
 	که قبلاً معرفی شد اضافه شود. در نتیجه این سازنده بدون اضافه کردن فراخوانی از سازنده کلاس پدر کامپایل می‌شود. یک اعجاب جزئی جاوا متفاوت بودن رفتار‌های ارث بری در دو متد 
-	\lr{finilize}\footnote{نهایی سازی}
+	\lr{finalize}\footnote{نهایی سازی.}
 	و سازنده است، که کامپایلر هیچ اجباری برای فراخوانی متد 
-	\lr{finilize}
+	\lr{finalize}
 	کلاس پدر در متد 
-	\lr{finilize}
+	\lr{finalize}
 	زیرکلاس وجود ندارد.
 	 
 	
+	\textit{\textbf{
+			متد نهایی
+	\LTRfootnote{Final method.}
+			 و کلاس‌ها.}}   جاوا دارای مکانسیم‌های جذابی برای محدود سازی زیرکلاس‌های یک کلاس دارد: به این ترتیب که یک متد یا تمام یک کلاس می‌تواند به صورت 
+	\lr{final}
+	  اعلان شود. اگر کلاس 
+	\lr{final}
+	   باشد در نتیجه، آن کلاس نمی‌توند هیچ زیر کلاسی داشته باشد. دلیل این ویژگی این است که اگر یک برنامه نویس بخواهد تمام رفتارهای تمامی شئ‌های یک نوع را تعریف کند. به دلیل اینکه یک زیرکلاس زیرنوع‌هایی ایجاد می‌کند، همانطور که در 
+	\hyperref[sec3:chap13]{
+	بخش ۱۳.۳} بررسی خواهد شد، اینکار نیازمند چند محدودیت بر روی زیرکلاس‌ها است. برای نشان دادن یک مثال مناسب، الگوی یکتایی
+	\LTRfootnote{singleton}
+	است که در بخش 
+	\hyperref[sec4:chap10]{
+	بخش ۱۰.۴} مورد بررسی قرار گرفت، که نشان داد چطور کلاسی طراحی کنیم که فقط یک شئ
+	از کلاس بتواند ایجاد شود. این الگو سازنده را مخفی می‌کند و فقط یک تابع عمومی ایجاد می‌کند که در حین اجرای برنامه فقط یک بار می‌تواند سازنده را فراخوانی کند، اما فقط اگر هیچ زیرکلاسی متدی عمومی را برای ایجاد بیشتر از یک شئ 
+	\lr{override}
+	 نکند.
+	اگر برنامه نویس واقعاً بخواهد الگوی یکتایی اجبار کند، باید راهی برای جلوگیری از برنامه نویسان برای تعریف زیرکلاس از یک کلاس یکتا، باشد. 
 	
-\lr{
-	 This does not always work well, because, if the superclass does
-	not have a constructor with no arguments, the call super() will not match a declared
-	constructor, and a compiler error results. An exception to this check occurs if one con-
-	structor invokes another. In this case, the first constructor does not need to call the su-
-	perclass constructor, but the second one must. For example, 
-	if the constructor declara-
-	tion ColorPoint() { ColorPoint(0,blue);} is added to the preceding ColorPoint class, then
-	this constructor is compiled without inserting a call to the superclass Point constructor.
+	 کلاس جاوا 
+	\lrInlineMono{java.lang.System}
+	یک مثال دیگر برای یک کلاس
+	\lr{final}
+	 است. این کلاس 
+	\lr{final} 
+	 است، تا برنامه نویسان متد‌های سیستم را 
+	\lr{override}
+	نکنند.
 	
-	A slight oddity of Java is that the inheritance conventions for finalize are different
-	from the conventions for constructors. Although a call to the superclass is required
-	for constructors, the compiler does not force a call to the superclass finalize method
-}
-	
-	
-    Final Methods and Classes. Java contains an interesting mechanism for restricting
-	subclasses of a class: A method or an entire class can be declared final. If a method
-	is declared final, then the method cannot be overridden in any subclass. If a class is
-	declared final, then the class cannot have any subclasses. The reason for this feature
-	is that a programmer may wish to define the behavior of all objects of a certain type.
-	Because subclasses produce subtypes, as discussed in Section 13.3, this requires some
-	restriction on subclasses. To give an extreme example, the singleton pattern discussed
-	in Section 10.4 shows how to design a class so that only one object of the class can
-	394 Portability and Safety: Java
-	be created. The pattern hides the constructor of the class and makes public only a
-	function that will call the constructor once during program execution. This pattern
-	solves the problem of restricting the number of objects of the class, but only if no
-	subclass overrides the public method with a method that can create more than one
-	object. If a programmer really wants to enforce the singleton pattern, there must be
-	a way to keep other programmers from defining subclasses of the singleton class.
-	The Java class java.lang.System is another example of a final class. This class is
-	final so that programmers do not override system methods.
+	به عبارت دیگر،‌ متد 
+	\lr{final}
+	جاوا برعکس توابع مجازی 
+	\LTRfootnote{virtual functions.}
+	\lr{C++}
+	است: متد‌های جاوا تا زمانی که به عنوان 
+	\lr{final}
+	معرفی نشده باشند، می‌توانند 
+	\lr{override}
+	 شوند، اگر چه توابع عضو 
+	\lr{C++}
+	 فقط زمانی می‌توانند 
+	 \lr{override}
+	  شوند که به عنوان تابع مجازی در نظر گرفته شوند.
+	 این قیاس خیلی دقیق نیست، هرچند که یک تابع عضو 
+	 \lr{C++}
+	 نمی‌تواند همزمان در یک کلاس مجازی باشد و در کلاس پدر خود و یا در کلاس مشتق شده آن مجازی نباشد، زیرا،   شکل یکسان مورد نیاز جدول مجازی برای کلاس‌های پایه و مشتق شده را نقض می‌کند. 
 	
 	
+	\textit{\textbf{
+	کلاس 
+	\lr{Object}
+	.}} در اصل، هر کلاس که در جاوا اعلان می‌شود یک گسترش
+	\LTRfootnote{extend, inherited}
+ از کلاسی دیگر است، بدین صورت که هر کلاسی که صراحتاً از کلاس دیگری ارث برای نشود به عنوان یک زیر کلاس از کلاس 
+	\lr{Object}
+ در نظر گرفته می‌شود.
+	کلاس 
+	\lrInlineMono{Object}
+	یک کلاس است که هیچ کلاس پدری ندارد. کلاس 
+	\lrInlineMono{Object}
+	شامل متدهای زیر است که در کلاس‌های مشتق شده 
+	\lrInlineMono{override}
+	می‌شوند:
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	\begin{itemize}[nosep]
+		\renewcommand{\labelitemi}{\color{gray}\scriptsize$\blacksquare$}
+		\item \lrInlineMono{GetClass}\linebreak
+		که یک شئ کلاس را که نمایانگر شئ کلاس است را بر می‌گرداند.
+		که می‌تواند برای پی بردن به اسم کاملاً توصیف شده کلاس، اعضای آن کلاس،  کلاس پدر بی واسطه آن و رابط‌هایی که کلاس پیاده سازی می‌کند استفاده کرد.
+		\item 
+		‌\lrInlineMono{ToString}
+		یک رشته که نمایانگر شئ است برمی‌گرداند.
+		\item ‌ 
+		\lrInlineMono{equals}
+		که یک ارزش از مفهوم شئ تعریف می‌کند، که مرجع مقایسه نیست.
+		\item 
+		‌\lrInlineMono{hasCode}
+		که یک مقدار برای ذخیره سازی شئ در جداول درهم
+		‌\LTRfootnote{hash table.}
+		 را برمی‌گرداند.
+		\item 
+		‌\lrInlineMono{clone}
+		که برای ایجاد یک کپی از شئ استفاده می‌شود.
+		\item
+		 متد‌های 
+		\lrInlineMono{wait}، \lrInlineMono{notify}
+		  و
+		\lrInlineMono{notifyAl}
+		که در برنامه نویسی همزمانی استفاده می‌شود.
+		\item 
+		‌\lrInlineMono{finalize}
+		که درست زمانی که یک شئ از بین برود اجرا می‌شود (که در
+		\hyperref[subsec1:sec2:chap13]{
+		زیر بخش ۱۳.۲.۱} مرتبط با زباله روب مورد بررسی قرار گرفت.)
+	\end{itemize}
+ 	به دلیل اینکه تمامی کلاس‌ها از متد‌های کلاس 
+ 	\lrInlineMono{Object}
+ 	ارث بری می‌کنند، در نتیجه هر شئی تمامی متد‌هایی که در بالا ذکر شد را دارد.
+ 	
+ 	\subsection{
+ 	کلاس‌های انتزاعی و رابط‌ها
+ 	}\label{subsec4:sec2:chap13}
+ 	مکانیزم کلاس‌های 
+ 	\textit{انتزاعی}
+ 	
+ 	\LTRfootnote{abstract.}
+ 	 زبان جاوا مشابه با زبان 
+ 	\lr{C++}
+ 	است. همانطور که ما در 
+ 	\hyperref[chap12]{
+ 	فصل ۱۲}  بررسی کردیم. کلاس انتزاعی کلاس است که تمامی متد‌های آن نیاز به پیاده سازی ندارند و از طرفی دیگر هیچ نمونه‌ای نمی‌تواند داشته باشد. جاوا از کلیدواژه 
+	\lrInlineMono{abstract}
+	به جای نحو 
+	\lrInlineMono{"=0"}
+	در 
+	\lr{C++}
+	استفاده می‌کند، که در کد زیر نشان داده شده است:
 	
 	
 
+ 	
+ 	همچنین جاوا یک قالب از کلاس "انتزاعی خالص" را نیز دارد که رابط
+ 	\LTRfootnote{interface.}
+ 	 نامیده می‌شود.
+ 	یک رابط مانند یک کلاس تعریف می‌شود، بجز اینکه تمام اعضای یک رابط باید ثابت یا متد انتزاعی باشند. یک رابط هیچ پیاده سازی مستقیمی ندارد، اما کلاس‌ها ممکن است طوری اعلان شوند که یک رابط را 
+ 	\lr{implement}\footnote{
+ 	در اینجا به عنوان یک کلمه کلیدی به کار رفته است. }
+ 	 کنند. به علاوه، یک رابط ممکن است به عنوان یک افزونه برای سایر کلاس‌ها باشد، که یک قالب از ارث برای رابط است.
+ 	
+ 	یکی از دلایل اینکه برنامه نویسان جاوا به جای کلاس‌های انتزاعی خالص از رابط و در زمانی که یک مفهوم تعریف شده اما پیاده سازی نشده است، استفاده می‌کنند، این است که جاوا اجازه می‌دهد که یک کلاس مجزا چندین رابط را 
+ 	\lr{implement}
+ 	 کند، درحالی که یک کلاس فقط می‌تواند یک کلاس پدر داشته باشد. در کلاس و رابط‌های زیر این  حالت به نمایش در‌آمده است. رابط 
+ 	 \lrInlineMono{Shape}
+ 	 چند ویژگی از یک شکل هندسی ساده را مشخص می کند، برای مثال هرکدام دارای یکی نقطه مرکزی و یک متد 
+ 	 \lrInlineMono{rotate}\footnote{
+ 	 	دوران.} هستند. و همچنین 
+  	\lrInlineMono{Drawable}
+  	چند ویژگی از شئ را که می‌تواند بر روی صفحه به نمایش درآید را نشان می‌دهد. اگر دایره یک شکل هندسی است پس همچنین می‌تواند بر روی صفحه به نمایش درآید، در نتیجه همانطور که در ادامه نشان داده شده است، کلاس 
+  	\lrInlineMono{Circle}
+ 	 می‌تواند به نحوی اعلان شود که هر دو 
+ 	 \lrInlineMono{Shape} و  \lrInlineMono{Drawable} 
+ 	 را 
+ 	 \lr{implement}
+ 	 کند.
+	\begin{latin}
+		\small
+		\begin{lstlisting}[]
+			interface Shape {
+					public Point center();
+					public void rotate(float degrees);
+			}
+			interface Drawable {
+				public void setColor(Color c);
+				public void draw();
+			}
+			class Circle implements Shape, Drawable {
+				// does not inherit any implementation
+				// but must define Shape, Drawable methods
+			}
+		\end{lstlisting}
+	\end{latin}	
+برخلاف 
+	\lr{C++}
+
+	Unlike C++ multiple inheritance (discussed in Section 12.5), there is no name clash
+	problem for Java interfaces. More specifically, suppose that the preceding two inter-
+	faces Shape and Circle also both define a Size method. If the two Size methods both
+	have the same number of arguments and the same argument types, then class Circle
+	must implement one Size method with this number of arguments and the argument
+	types given in both interfaces. On the other hand, if the two Size methods have a
+	different number of arguments or the arguments can be distinguished by type, then
+	these are considered two different method names and Circle must define an imple-
+	mentation for each one. Because Java method lookup uses the method name and
+	number and types of arguments to select the method code, the two methods with the
+	same name will be treated separately at method lookup time.
+
+
+	
 \end{document}

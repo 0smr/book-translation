@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.31)  9 MAY 2020 19:09
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2020.3.31)  11 MAY 2020 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1225,12 +1225,6 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-)
 
 Package fontspec Info: Could not resolve font "XB Titre/B" (it probably
 (fontspec)             doesn't exist).
@@ -1302,7 +1296,7 @@ Overfull \hbox (21.28418pt too wide) in paragraph at lines 89--106
 ]
 LaTeX Font Info:    Font shape `TU/XBYas(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/XBYas(0)/m/it' tried instead on input line 1
-78.
+80.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1311,30 +1305,20 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [385]
-LaTeX Font Info:    Calculating math sizes for size <8.00006> on input line 187
+LaTeX Font Info:    Calculating math sizes for size <8.00006> on input line 189
 .
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.36003pt on input line 187.
+(Font)              scaled to size 7.36003pt on input line 189.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.59358pt on input line 187.
+(Font)              scaled to size 5.59358pt on input line 189.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 4.41606pt on input line 187.
+(Font)              scaled to size 4.41606pt on input line 189.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.36003pt on input line 187.
+(Font)              scaled to size 7.36003pt on input line 189.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.59358pt on input line 187.
+(Font)              scaled to size 5.59358pt on input line 189.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 4.41606pt on input line 187.
-
-\endL or \endR problem (2 missing, 0 extra) detected at line 187
- [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
- []
-
-
-\endL or \endR problem (0 missing, 2 extra) detected at line 187
-[][][] [][][][][]
- []
-
+(Font)              scaled to size 4.41606pt on input line 189.
 
 \endL or \endR problem (2 missing, 0 extra) detected at line 189
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
@@ -1356,26 +1340,26 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 209
+\endL or \endR problem (2 missing, 0 extra) detected at line 193
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 209
+\endL or \endR problem (0 missing, 2 extra) detected at line 193
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 212
+\endL or \endR problem (2 missing, 0 extra) detected at line 211
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 212
+\endL or \endR problem (0 missing, 2 extra) detected at line 211
 [][][] [][][][][]
  []
 
-[386]
+
 \endL or \endR problem (2 missing, 0 extra) detected at line 214
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
@@ -1395,7 +1379,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 [][][] [][][][][]
  []
 
-
+[386]
 \endL or \endR problem (2 missing, 0 extra) detected at line 218
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
@@ -1416,57 +1400,57 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 224
+\endL or \endR problem (2 missing, 0 extra) detected at line 222
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 224
+\endL or \endR problem (0 missing, 2 extra) detected at line 222
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 226
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 226
 [][][] [][][][][]
  []
 
 [387] [388]
 
 LaTeX Warning: Hyper reference `subsec1:sec2:chap6' on page 389 undefined on in
-put line 293.
+put line 295.
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 316
+\endL or \endR problem (2 missing, 0 extra) detected at line 320
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 316
+\endL or \endR problem (0 missing, 2 extra) detected at line 320
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 321
+\endL or \endR problem (2 missing, 0 extra) detected at line 325
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 321
+\endL or \endR problem (0 missing, 2 extra) detected at line 325
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 324
+\endL or \endR problem (2 missing, 0 extra) detected at line 328
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 324
-[][][] [][][][][]
- []
-
-[389]
-\endL or \endR problem (2 missing, 0 extra) detected at line 327
- [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
- []
-
-
-\endL or \endR problem (0 missing, 2 extra) detected at line 327
+\endL or \endR problem (0 missing, 2 extra) detected at line 328
 [][][] [][][][][]
  []
 
@@ -1480,199 +1464,297 @@ put line 293.
 [][][] [][][][][]
  []
 
+[389]
+\endL or \endR problem (2 missing, 0 extra) detected at line 335
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
 
-Overfull \hbox (3.5957pt too wide) in paragraph at lines 332--334
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 335
+[][][] [][][][][]
+ []
+
+
+Overfull \hbox (3.5957pt too wide) in paragraph at lines 336--338
 [][] \TU/XBYas(0)/m/it/12 سربارگذاری عملگر‌های پیچیده است و غیر ضروری تلقی می‌ش
 ود\TU/XBYas(0)/m/n/12 ، توابع جاوا می‌توانند سربارگذاری[]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 334
+\endL or \endR problem (2 missing, 0 extra) detected at line 338
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 334
+\endL or \endR problem (0 missing, 2 extra) detected at line 338
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 337
+\endL or \endR problem (2 missing, 0 extra) detected at line 341
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 337
+\endL or \endR problem (0 missing, 2 extra) detected at line 341
 [][][] [][][][][]
  []
 
 
 LaTeX Warning: Hyper reference `subsec1:sec3:chap12' on page 390 undefined on i
-nput line 360.
+nput line 364.
 
 LaTeX Font Info: \kern \lst@width \kern \lst@width \kern \lst@width Calculating
 \kern \lst@width math\kern \lst@width sizes\kern \lst@width for\kern \lst@width
- size\kern \lst@width <10.95007> on input line 367.
+ size\kern \lst@width <10.95007> on input line 371.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07404pt on input line 367.
+(Font)              scaled to size 10.07404pt on input line 371.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.6562pt on input line 367.
+(Font)              scaled to size 7.6562pt on input line 371.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.04446pt on input line 367.
+(Font)              scaled to size 6.04446pt on input line 371.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07404pt on input line 367.
+(Font)              scaled to size 10.07404pt on input line 371.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.6562pt on input line 367.
+(Font)              scaled to size 7.6562pt on input line 371.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.04446pt on input line 367.
+(Font)              scaled to size 6.04446pt on input line 371.
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 402
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 402
+[][][] [][][][][]
+ []
+
 [390]
-\endL or \endR problem (2 missing, 0 extra) detected at line 396
+\endL or \endR problem (2 missing, 0 extra) detected at line 405
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 396
+\endL or \endR problem (0 missing, 2 extra) detected at line 405
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 399
+\endL or \endR problem (2 missing, 0 extra) detected at line 428
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 399
+\endL or \endR problem (0 missing, 2 extra) detected at line 428
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 420
+\endL or \endR problem (2 missing, 0 extra) detected at line 430
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 420
-[][][] [][][][][]
- []
-
-
-\endL or \endR problem (2 missing, 0 extra) detected at line 422
- [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
- []
-
-
-\endL or \endR problem (0 missing, 2 extra) detected at line 422
+\endL or \endR problem (0 missing, 2 extra) detected at line 430
 [][][] [][][][][]
  []
 
 
 LaTeX Warning: Hyper reference `sec4:chap13' on page 391 undefined on input lin
-e 428.
+e 440.
 
 [391]
 
 LaTeX Warning: Hyper reference `sec4:chap13' on page 392 undefined on input lin
-e 458.
+e 474.
 
 [392]
-\endL or \endR problem (2 missing, 0 extra) detected at line 513
+\endL or \endR problem (2 missing, 0 extra) detected at line 531
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 513
+\endL or \endR problem (0 missing, 2 extra) detected at line 531
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 530
+\endL or \endR problem (2 missing, 0 extra) detected at line 548
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 530
+\endL or \endR problem (0 missing, 2 extra) detected at line 548
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 535
+\endL or \endR problem (2 missing, 0 extra) detected at line 553
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 535
+\endL or \endR problem (0 missing, 2 extra) detected at line 553
 [][][] [][][][][]
  []
+
+File: image/Figure_13.1.pdf Graphic file (type eps)
+<image/Figure_13.1.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [393]
-
-LaTeX Warning: Hyper reference `fig1:subsec2:sec2:chap13' on page 394 undefined
- on input line 560.
-
-
-\endL or \endR problem (2 missing, 0 extra) detected at line 568
+\endL or \endR problem (2 missing, 0 extra) detected at line 595
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 568
+\endL or \endR problem (0 missing, 2 extra) detected at line 595
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 572
+\endL or \endR problem (2 missing, 0 extra) detected at line 599
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 572
+\endL or \endR problem (0 missing, 2 extra) detected at line 599
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 576
+\endL or \endR problem (2 missing, 0 extra) detected at line 603
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 576
+\endL or \endR problem (0 missing, 2 extra) detected at line 603
 [][][] [][][][][]
  []
 
 
-\endL or \endR problem (2 missing, 0 extra) detected at line 580
+\endL or \endR problem (2 missing, 0 extra) detected at line 607
  [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
  []
 
 
-\endL or \endR problem (0 missing, 2 extra) detected at line 580
+\endL or \endR problem (0 missing, 2 extra) detected at line 607
 [][][] [][][][][]
  []
 
 [394] [395]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 692.
- [396]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 692.
+
+LaTeX Warning: Hyper reference `sec3:chap13' on page 396 undefined on input lin
+e 709.
+
+
+LaTeX Warning: Hyper reference `sec4:chap10' on page 396 undefined on input lin
+e 713.
+
+[396]
+\endL or \endR problem (2 missing, 0 extra) detected at line 767
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 767
+[][][] [][][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 767--771
+[][][]\TU/lmtt/m/n/12 GetClass[][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 771
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 771
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 773
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 773
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 777
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 777
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 782
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 782
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 785
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 785
+[][][] [][][][][]
+ []
+
+
+\endL or \endR problem (2 missing, 0 extra) detected at line 791
+ [][][]$\FMS/futm/m/n/8.00006 ¥$[][]
+ []
+
+
+\endL or \endR problem (0 missing, 2 extra) detected at line 791
+[][][] [][][][][]
+ []
+
+
+LaTeX Warning: Hyper reference `chap12' on page 397 undefined on input line 811
+.
+
+[397]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 865.
+ [398]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 865.
 
 (./C. Mitchell - Concepts in Programming Languages- Translation P 396-422 .aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 692.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 692.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 865.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 865.
 Package rerunfilecheck Info: File `"C. Mitchell - Concepts in Programming Langu
 ages- Translation P 396-422 ".out' has not changed.
 (rerunfilecheck)             Checksum: .
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 692.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 865.
  ) 
 Here is how much of TeX's memory you used:
- 27042 strings out of 492922
- 505867 string characters out of 6136751
- 794329 words of memory out of 5000000
- 30715 multiletter control sequences out of 15000+600000
- 644164 words of font info for 180 fonts, out of 8000000 for 9000
+ 26980 strings out of 492922
+ 505021 string characters out of 6136751
+ 793277 words of memory out of 5000000
+ 30654 multiletter control sequences out of 15000+600000
+ 644172 words of font info for 181 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 47i,12n,97p,1298b,1821s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,12n,79p,1298b,1182s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on C. Mitchell - Concepts in Programming Languages- Translation 
-P 396-422 .pdf (14 pages).
+P 396-422 .pdf (16 pages).
