@@ -570,7 +570,6 @@
 	\begin{figure}[!h]
 		\label{fig1:subsec2:sec2:chap13}
 		\centering
-		\def\svgwidth{\columnwidth}
 		\includegraphics[width=0.45\linewidth,bb=0 0 286 185]{image/Figure_13.1.pdf}
 		\caption{
 			بسته‌های جاوا و سطوح رؤیت کلاس. }
@@ -859,21 +858,71 @@
 			}
 		\end{lstlisting}
 	\end{latin}	
-برخلاف 
-	\lr{C++}
-
-	Unlike C++ multiple inheritance (discussed in Section 12.5), there is no name clash
-	problem for Java interfaces. More specifically, suppose that the preceding two inter-
-	faces Shape and Circle also both define a Size method. If the two Size methods both
-	have the same number of arguments and the same argument types, then class Circle
-	must implement one Size method with this number of arguments and the argument
-	types given in both interfaces. On the other hand, if the two Size methods have a
-	different number of arguments or the arguments can be distinguished by type, then
-	these are considered two different method names and Circle must define an imple-
-	mentation for each one. Because Java method lookup uses the method name and
-	number and types of arguments to select the method code, the two methods with the
-	same name will be treated separately at method lookup time.
-
+برخلاف ارث بری چندگانه در 
+\lr{C++}
+(که در 
+\hyperref[sec5:chap12]{
+	بخش ۱۲.۵} بررسی شد)، هیچ مشکل تصادم اسم در رابط‌های جاوا وجود ندارد. به طور خاص، فرض کنید که
+	 دو رابط 
+	 \lrInlineMono{Shape}
+	 و
+	 \lrInlineMono{Circle}
+	 تعریف شده در قبل  هر دو متد 
+	 \lrInlineMono{Size}
+	 را پیاده سازی کرده‌اند. اگر متد‌های 
+	 \lrInlineMono{Size}
+	 هردو تعداد آرگومان با نوع یکسان داشته باشند. در نتیجه کلاس 
+	 \lrInlineMono{Circle}
+	 باید یک متد 
+	 \lrInlineMono{Size}
+	 با این با تعداد آرگومان و نوع آرگومان موجود در دو رابط پیاده سازی کند. از طرف دیگر، اگر دو متد 
+	 \lrInlineMono{Size}
+	 آرگومان‌هایی با تعداد و یا نوع متمایز داشته باشند، در نتیجه آنها به عنوان دو متد متفاوت در نظر گرفته شده و کلاس 
+	 \lrInlineMono{Circle}
+	 باید متد 
+	 \lrInlineMono{Size}
+	  را برای هر کدام را پیاده سازی کند. به این خاطر که جستجوی متد جاوا از نام و تعداد و نوع آرگومان‌ها برای انتخاب کد متد استفاده می‌کند، دو متد با نام‌های  یکسان در زمان جستجوی متد‌ها به صورت مجزا تلقی می‌شوند.
+	 
+	\section{
+	نوع‌ها و زیر نوع‌های جاوا }
+	\label{sec3:chap13}
+	\subsection{
+	طبقه بندی نوع‌ها}
+	\label{subsec1:sec3:chap13}
+	
+	
+\lr{	
+	13.3 JAVA TYPES AND SUBTYPING
+	13.3.1 Classification of Types
+	The Java types are divided into two categories: primitive types and reference types.
+	The eight primitive types are the boolean type and seven numeric types. The seven
+	numerictypesaretheformsofintegers byte , short , int , long ,and char andthefloating-
+	point types float and double . The three forms of reference types are class types,
+	interface types (subsequently discussed), and array types. There is also a special null
+	type. The values of a reference type are references to objects (which include arrays).
+	All objects, including arrays, support the methods of class Object .
+	The subtyping relationships between the main families of types are illustrated in
+	Figure 13.2, which includes a Shape interface and Circle and Square classes to show
+	how user-defined classes and interfaces fit into the picture. Other predefined types
+	such as String , ClassLoader , and Thread occupy positions similar to that of Exception
+	in this figure. Object[] is the type of arrays of objects, and similarly for array types
+	Shape[] , Circle[] , and Square[] .
+	Although it is standard Java terminology to call Object and its subtypes reference
+	types,thismaybeslightlyconfusing.AlthoughC++distinguishes Object from Object * ,
+	there are no explicit pointer types in Java. Instead, the difference between a pointer
+	toanobjectandanobjectitselfisimplicit,withpointerdereferencingcombinedwith
+	operations like method invocation and field access. If T is a reference type, then a
+	variable x of type T is a reference to T objects; in C++ the variable x would have type
+	T* . Because there is no explicit way to dereference x to get a value of type T , Java
+	does not have a separate type for objects not referred to by pointer.}
 
 	
+	\begin{figure}[!h]
+		\label{fig1:subsec1:sec3:chap13}
+		\centering
+		\includegraphics[width=0.9\linewidth,bb=0 0 514.57 361.51]{image/Figure_13.2.pdf}
+		\caption{
+			طبقه بندی نوع‌ها در جاوا.}
+	\end{figure}
+
 \end{document}
