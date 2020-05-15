@@ -890,14 +890,26 @@
 	طبقه بندی نوع‌ها}
 	\label{subsec1:sec3:chap13}
 	
+	نوع‌های جاوا در دو دسته تقسیم می‌شوند: نوع‌های اولیه و نوع‌های ارجاعی. هشت نوع اولیه به نوع 
+	\lrInlineMono{boolean}
+	و هفت نوع دیگر از انواع عددی در فرم 
+	\lrInlineMono{integers byte}، \lrInlineMono{short}
+	، \lrInlineMono{int}، \lrInlineMono{long}، \lrInlineMono{char}
+	و نوع‌های اعشاری
+	\lrInlineMono{float} 
+	و 
+	\lrInlineMono{double}
+	هستند. سه نوع در انواع ارجاعی وجود دارند، نوع‌های 
+	\lrInlineMono{class}، \lrInlineMono{interface}
+	(که اخیراً بحث شد) و نوع آرایه. و همچنین نوع خاص 
+	\lrInlineMono{null}
+	هم موجود است. مقادیر یک نوع ارجاعی یک ارجاع به شئ است (که شامل آرایه نیز می‌شود). که در شکل 
+	
+	
+	
+	
 	
 \lr{	
-	13.3 JAVA TYPES AND SUBTYPING
-	13.3.1 Classification of Types
-	The Java types are divided into two categories: primitive types and reference types.
-	The eight primitive types are the boolean type and seven numeric types. The seven
-	numerictypesaretheformsofintegers byte , short , int , long ,and char andthefloating-
-	point types float and double . The three forms of reference types are class types,
 	interface types (subsequently discussed), and array types. There is also a special null
 	type. The values of a reference type are references to objects (which include arrays).
 	All objects, including arrays, support the methods of class Object .
@@ -908,9 +920,9 @@
 	in this figure. Object[] is the type of arrays of objects, and similarly for array types
 	Shape[] , Circle[] , and Square[] .
 	Although it is standard Java terminology to call Object and its subtypes reference
-	types,thismaybeslightlyconfusing.AlthoughC++distinguishes Object from Object * ,
+	types, this may be slightly confusing. Although C++ distinguishes Object from Object * ,
 	there are no explicit pointer types in Java. Instead, the difference between a pointer
-	toanobjectandanobjectitselfisimplicit,withpointerdereferencingcombinedwith
+	to an object and an object itself is implicit, with pointer dereferencing combined with
 	operations like method invocation and field access. If T is a reference type, then a
 	variable x of type T is a reference to T objects; in C++ the variable x would have type
 	T* . Because there is no explicit way to dereference x to get a value of type T , Java
