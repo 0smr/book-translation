@@ -903,7 +903,24 @@
 	\lrInlineMono{class}، \lrInlineMono{interface}
 	(که اخیراً بحث شد) و نوع آرایه. و همچنین نوع خاص 
 	\lrInlineMono{null}
-	هم موجود است. مقادیر یک نوع ارجاعی یک ارجاع به شئ است (که شامل آرایه نیز می‌شود). که در شکل 
+	هم موجود است. مقادیر یک نوع ارجاعی یک ارجاع به شئ است (که شامل آرایه نیز می‌شود). تمام اشیاء، شامل آرایه‌ها، متدهای 
+	کلاس 
+	\lrInlineMono{Object}
+	را پشتیبانی می‌کنند. 
+	
+	رابطه زیر نوع بین نوع‌های اصلی در 
+	\hyperref[fig1:subsec1:sec3:chap13]{
+		شکل ۱۳.۲} به نمایش در‌آمده‌اند، که شامل رابط‌های 
+	\lrInlineMono{Shape} 
+	 و کلاس‌های
+	\lrInlineMono{Circle} و \lrInlineMono{Square}
+	تا نشان بدهند که چطور کلاس‌ها و رابط‌های تعریف شده توسط کاربر در تصویر گنجانده شده‌اند.
+	مابقی نوع‌های پیش تعریف شده مانند:
+	\lrInlineMono{Strings}، \lrInlineMono{ClassLoader} و \lrInlineMono{Thead}
+	در جایگاهی مانند
+	\lrInlineMono{Exception}
+	در این شکل دارند.
+	 
 	
 	
 	
@@ -917,7 +934,8 @@
 	Figure 13.2, which includes a Shape interface and Circle and Square classes to show
 	how user-defined classes and interfaces fit into the picture. Other predefined types
 	such as String , ClassLoader , and Thread occupy positions similar to that of Exception
-	in this figure. Object[] is the type of arrays of objects, and similarly for array types
+	in this figure.
+	-> Object[] is the type of arrays of objects, and similarly for array types
 	Shape[] , Circle[] , and Square[] .
 	Although it is standard Java terminology to call Object and its subtypes reference
 	types, this may be slightly confusing. Although C++ distinguishes Object from Object * ,
@@ -926,8 +944,8 @@
 	operations like method invocation and field access. If T is a reference type, then a
 	variable x of type T is a reference to T objects; in C++ the variable x would have type
 	T* . Because there is no explicit way to dereference x to get a value of type T , Java
-	does not have a separate type for objects not referred to by pointer.}
-
+	does not have a separate type for objects not referred to by pointer.
+}
 	
 	\begin{figure}[!h]
 		\label{fig1:subsec1:sec3:chap13}
