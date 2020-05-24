@@ -15,17 +15,30 @@
 \usepackage{fancyvrb}
 \usepackage{subcaption}
 %% \usepackage[perpage]{footmisc}
+\usepackage[breakable]{tcolorbox}
 \usepackage[Bjornstrup]{fncychap}%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 \usepackage{indentfirst}
 \usepackage{listings}
 \usepackage{lstautogobble}
 \usepackage[colorlinks,linkcolor=blue,citecolor=red,urlcolor=blue]{hyperref}
+\tcbuselibrary{breakable, skins}
 \usepackage[logo=on,fontsize={12,18}]{xepersian}
 
+% -------------- tcolorbox -------------
+\tcbset{
+	enhanced,
+	colback=cyan!5!white,
+	boxrule=0.1pt,
+	colframe=cyan!75!black,
+	fonttitle=\bfseries,
+	width=0.9\linewidth
+}
+% -------------- xepersian -------------
 %% \settextfont{Microsoft Sans Serif}
 \settextfont{XB Yas}
 \setlatintextfont{Arial}
 
+% --------------   xcolor  -------------
 \definecolor{ao}{rgb}{0.0, 0.5, 0.0}
 \definecolor{codeGreen}{rgb}{0, 0.5, 0.5}
 \definecolor{lavendergray}{rgb}{0.87, 0.86, 0.92}
@@ -35,14 +48,15 @@
 \definecolor{steelBlue}{rgb}{0.00, 0.00, 0.50}
 \definecolor{stringGreen}{rgb}{0, 0.5, 0}
 
+% --------------  fancyhdr -------------
 \pagestyle{fancy}
 
 \cfoot{\thepage}
 %\rhead{\thepage }
-
 \renewcommand{\headrulewidth}{0.4pt}
 
-\newcommand{\lrm}[1]{{\color{steelBlue}\lr{\texttt{#1}}}}
+%% new commonds.
+\newcommand{\lrm}[1]{\textcolor{steelBlue}{\lr{\texttt{#1}}}}
 
 \begin{document}
 	\lstset{
@@ -129,13 +143,12 @@
   سایت
 	\lr{http://www.hotwired.com/}}
 	(در دسامبر ۱۹۹۵) موجود است:
-	
 	\begin{center}
-		\fcolorbox{ao}{aliceblue}{%
-		\begin{minipage}{.9\linewidth}
-			
-			%Figure james gsaling
-			
+		\begin{tcolorbox}[breakable]
+			\begin{center}
+				\includegraphics[width=0.5\linewidth]{image/james_gosling_pie_cake_2.jpg}\quad
+				\includegraphics[width=0.267\linewidth]{image/james_gosling.jpg}
+			\end{center}\vspace{5mm}
 			\noindent\textbf{
 			جیمز گاسلینگ }
 			\\[5mm]		
@@ -165,9 +178,7 @@
 		در کانادا دریافت کرد، او همچنین مدرک دکترای خود را از دانشگاه ملون و با پایان نامه‌ای در عنوان "دستکاری جبری محدودیت‌ها"
 		\LTRfootnote{\lr{The Algebraic Manipulation of Constraints.}}
 		 دریافت کرد.
-		
-		\end{minipage}}%
-	
+		\end{tcolorbox}
 		\begin{minipage}{0.9\linewidth}
 	گاسلین به سرعت متوجه شد که زبان‌های موجود کارایی مورد نیاز را برای کاری که در سر داشت، ندارند. از جهتی زبان
 	\lr{C++}
@@ -764,7 +775,7 @@
 	
 	\begin{itemize}[nosep]
 		\renewcommand{\labelitemi}{\color{gray}\scriptsize$\blacksquare$}
-		\item \lrm{GetClass}\linebreak
+		\item \lrm{GetClass}
 		که یک شئ کلاس را که نمایانگر شئ کلاس است را بر می‌گرداند.
 		که می‌تواند برای پی بردن به اسم کاملاً توصیف شده کلاس، اعضای آن کلاس،  کلاس پدر بی واسطه آن و رابط‌هایی که کلاس پیاده سازی می‌کند استفاده کرد.
 		\item 
