@@ -37,6 +37,7 @@
 %% \settextfont{Microsoft Sans Serif}
 \settextfont{XB Yas}
 \setlatintextfont{Arial}
+\deflatinfont\InTheNameOfGod[Scale=8]{Far.Symbol8}
 
 % --------------   xcolor  -------------
 \definecolor{ao}{rgb}{0.0, 0.5, 0.0}
@@ -1014,8 +1015,9 @@
 	C++
 	، به وسیله جابه‌جایی
 	\LTRfootnote{offset n /ˈɒfˌsɛt/}
-	 شناخته شده در زمان کامپایل پیاده سازی شود. هرچند، امکان جستجو بر اساس رابط نمی‌تواند چنین باشد، زیرا یک کلاس ممکن است چندین رابط را پیاده سازی 
-	(\LTRfootnote{implement})
+	 شناخته شده در زمان کامپایل پیاده سازی شود. هرچند، امکان جستجو بر اساس رابط نمی‌تواند چنین باشد، زیرا یک کلاس ممکن است چندین رابط را
+	\lr{implement}\footnote{
+	در اینجا به عنوان یک کلید واژه به کار رفته است.}
 	کرده باشد و ممکن است رابط‌ها با ترتیب دیگری اعضا را لیست کنند. که در 
 	\hyperref[subsec4:sec4:chap13]{
 	زیر بخش ۱۳.۴.۴} به جزییات پرداخته شده است.
@@ -1119,19 +1121,19 @@
 	\lrm{A}
 	در هر اندیس آرایه قابل قبول است.
 	هرچند به خاطر اینکه 
-	aArray 
+	\lrm{aArray} 
 	به یک آرایه از اشیاء
-	B
+	\lrm{B}
 	اشاره می‌کند، این انتصاب نوع 
-	bArray 
+	\lrm{bArray} 
 	را نقض می‌کند.
 	به خاطر اینکه این انتصاب باعث ایجاد مشکلات نوع می‌شود، ساختار جاوا اجازه اجرای چنین انتصابی را نمی‌دهد.
 	یک آزمایش زمان اجرا مشخص می‌کند  که مقداری که به آرایه از اشیاء 
-	B 
+	\lrm{B} 
 	انتصاب داده شده است یک شئ 
-	B
+	\lrm{B}
 	نیست و استثنا 
-	ArrayStoreException
+	\lrm{ArrayStoreException}
 	رخ می‌دهد. 
 	
 	همچنین طراحان زبان جاوا کواریانس آرایه را برای برخی اهداف مشخص سودمند دانستند (نوشتن برخی روال‌های کپی باینری)، با اینحال کواریانس آرایه در جاوا باعث ایجاد برخی سردرگمی‌ها و آزمون‌های زمان اجرای زیادی می‌شود.
@@ -1144,7 +1146,7 @@
 	\hyperref[sec2:chap8]{
 		بخش 8.2}
 	در مورد آنها صحبت کردیم. استثنائات جاوا ممکن است ناشی از دستور 
-	throw
+	\lrm{throw}
 	در برنامه کاربر و یا نتیجه برخی از حالت‌های خطا که توسط ماشین مجازی تشخیص داده شده‌اند باشد، مانند دسترسی خارج از محدوده یک آرایه. در اصطلاحات جاوا، یک استثنا از جایی که رخ داده است پرتاب
 	\LTRfootnote{thrown}
 	 می شود و باید در جایی که کنترل منتقل شده است گرفته
@@ -1152,7 +1154,7 @@
 	 شود. مانند زبان‌های دیگر، پرتاب یک استثنا باعث می‌شود که جاوا هر عبارت، دستور، فراخوانی متد یا سازنده، مقدار دهی، و مقدار دهی فیلدهای یک عبارت که اجرای آن شروع شده است اما پایان نیافته است را متوقف کند. این عمل تا زمانی که یک کنترل کننده مطابق با کلاس استثنا اتفاق افتاده پیدا نشود ادامه پیدا می‌کند.
 
 	یک جنبه جالب از مکانیسم استثنا جاوا، طریقه ارتباط آن با کلاس و سلسه مراتب نوع است. هر استثنا جاوا نمایانگر یک نمونه از کلاس 
-	Throwable
+	\lrm{Throwable}
 	یا یکی از زیر کلاس‌های آن است. 
 	یک مزیت نمایانگر بودن استثناها به عنوان شئ حمل اطلاعات از نقطه‌ای که پرتاب می‌شوند به نقطه‌ای که یک کنترل کننده
 	آن را می‌گیرد است. زیر نوع بودن همچنین می‌تواند کمک شایانی در کنترل استثنا داشته باشد: به این صورت که
@@ -1192,7 +1194,9 @@
 	\lrm{JVM}
 	مشکلاتی با بلاک‌های 
 	\lrm{try-finally}
-	وجود دارد. مخصوصاً، بخش قابل توجهی از پیچیدگی‌های تأیید bytecode جاوا، نتیجه پیاده سازی قسمت‌های 
+	وجود دارد. مخصوصاً، بخش قابل توجهی از پیچیدگی‌های تأیید 
+	\lr{bytecode} 
+	جاوا، نتیجه پیاده سازی قسمت‌های 
 	\lrm{finally}
 	به عنوان "زیر روال محلی" (به نام 
 	\lrm{jsr})
@@ -1203,20 +1207,48 @@
 	را در
 	\hyperref[sec4:chap13]{
 	بخش ۱۳.۴} مورد بررسی قرار خواهیم داد.
-
 	
-	The classes of exceptions are shown in Figure 13.3. Every exception is, by defini-
-	tion, an object of some subclass of Throwable . The class Throwable is a direct subclass
-	of Object . Programs can use the preexisting exception classes in throw statements
-	or define additional exception classes. Additional exceptions classes must be sub-
-	classes of Throwable or one of its subclasses. To take advantage of the Java platform’s
-	compile-time checking for exception handlers, it is typical to define most new excep-
-	tion classes as checked exception classes. These are subclasses of Exception that are
-	not subclasses of RuntimeException .
-	The phrases checked exceptions and “unchecked exceptions” refer to compile-
-	time checking of the set of exceptions that may be thrown in a Java program. The
+	کلاس‌های استثنا در 
+	\hyperref[fig1:subsec1:sec3:chap13]{
+	شکل ۱۳.۳} آورده شده‌اند. هر استثنا، در تعریف یم شئ از چند زیر کلاس از 
+	\lrm{Throwable}
+	است. همچنین کلاس 
+	\lrm{Throwable}
+	یک زیرکلاس مستقیم از کلاس
+	\lrm{Object}
+	است. برنامه‌ها می‌توانند از کلاس از کلاس‌های موجود در دستورات 
+	\lrm{throw}
+	استفاده کنند یا اینکه می‌توانند کلاس‌های اضافی ایجاد کنند. کلاس‌های اضافی می‌توانند یک زیر کلاس از خود کلاس
+	\lrm{Throwable}
+	و یا زیر کلاس‌های آن باشند.
+	برای استفاده از بررسی زمان کامپایل پلتفرم 
+	\lr{Java}،
+	کار معمولی است که کلاس‌های جدید استثنا را به عنوان کلاس بررسی شده استثنا تعریف کنیم. 
+	این کلاس‌ها زیر کلاس‌هایی از 
+	\lrm{Exception}
+	و نه زیرکلاس 
+	\lrm{RuntimeException}
+	هستند.
+	
+	که عبارات استثنا بررسی شده و بررسی نشده به بررسی زمان کامپایل یک دسته استثنا که ممکن است در برنامه 
+	\lr{Java}
+	رخ دهد، اشاره دارند.
+	\begin{figure}[!h]
+		\label{fig1:subsec4:sec3:chap13}
+		\centering
+		\includegraphics[width=0.9\linewidth,bb=0 0 713.19 575.58]{image/Figure_13.3.pdf}
+		\caption{
+			کلاس‌های استثنا جاوا}
+	\end{figure}
 
 
-
-
+	The Java compiler checks, at compile time, that a program contains handlers for every
+	checked exception. We accomplish this by analyzing the checked exceptions that
+	can be thrown during execution of a method or constructor. These checks are based
+	on the declared set of exceptions that a Java method could throw, called the throws
+	clauseofthemethod.Foreachcheckedexceptionthatisapossibleresultofamethod
+	call, the throws clause for the method must mention the class of that exception or
+	one of the superclasses of the class of that exception. This compile-time checking for
+	the presence of exception handlers is designed to reduce the number of exceptions
+	that are not properly handled.
 \end{document}
